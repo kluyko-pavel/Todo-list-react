@@ -1,0 +1,7 @@
+export const ADD_TODOS = "ADD_TODOS";
+export const TOGGLE_COMPLETE = "TOGGLE_COMPLETE";
+export const DELETE_LAST = "DELETE_LAST";
+export const DELETE_ALL = "DELETE_ALL";
+export const DELETE_TASK = "DELETE_TASK";
+export const SET_DISPLAYED_DATA = "SET_DISPLAYED_DATA";
+export const CHANGE_TODO_TEXT = "CHANGE_TODO_TEXT";

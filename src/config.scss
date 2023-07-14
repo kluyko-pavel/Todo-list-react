@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+$main-clr: #3e42ca;
+$secondary-clr: #f1f5f7;
+body {
+  padding: 2%;
+}
+
+.container {
+  padding: 15px 20px;
+  margin: 0 auto;
+}

@@ -1,0 +1,11 @@
+.search-todo {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+  align-items: center;
+}
+@media (max-width: 580px) {
+  .search-todo {
+    flex-wrap: wrap;
+  }
+}

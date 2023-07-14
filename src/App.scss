@@ -1,0 +1,41 @@
+@import "./config.scss";
+.app {
+  max-width: 1000px;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: $secondary-clr;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  height: 550px;
+  box-shadow: 0 0px 1px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.todo-list {
+  margin: 20px auto 0 auto;
+  max-height: 400px;
+  overflow: scroll;
+  max-width: 550px;
+}
+.forms-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.empty-todos {
+  text-align: center;
+  padding-top: 40px;
+}
+@media (max-width: 580px) {
+  .todo-list {
+    max-height: 350px;
+  }
+}
+@media (max-width: 450px) {
+  .todo-list {
+    max-height: 320px;
+  }
+}
+@media (max-width: 3450px) {
+  .todo-list {
+    max-height: 275px;
+  }
+}
