@@ -25,17 +25,20 @@
   padding-top: 40px;
 }
 @media (max-width: 580px) {
+  .app {
+    height: 100vh;
+  }
   .todo-list {
-    max-height: 350px;
+    max-height: 80vh;
   }
 }
 @media (max-width: 450px) {
   .todo-list {
-    max-height: 320px;
+    max-height: 68vh;
   }
 }
-@media (max-width: 3450px) {
+@media (max-width: 345px) {
   .todo-list {
-    max-height: 275px;
+    max-height: 58vh;
   }
 }
